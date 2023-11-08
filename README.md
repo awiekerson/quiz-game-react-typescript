@@ -10,6 +10,7 @@ Follow these simple steps:
 2. 🚀 Open the terminal and type **'npm i'** to install all dependencies
 3. 📝 In the terminal, type **'vite'** to run the project in the local server (If you don't have vite, type **'npm install vite -g'** first
 
+## 🎥 [Watch the full tutorial for this project](https://youtu.be/eEW5dS1PDRU)
 
 ## 🌟 Check out the complete course
 
