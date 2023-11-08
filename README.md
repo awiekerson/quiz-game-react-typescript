@@ -12,6 +12,8 @@ Follow these simple steps:
 
 🎥 **[Click here to watch the full tutorial for this project on YouTube](https://youtu.be/eEW5dS1PDRU)**
 
+👉 **[Click here to view the LIVE DEMO](https://quiz-game-with-react-and-ts.web.app/)**
+
 ## 🌟 Check out the complete course
 
 🔥 Enroll in my complete React Course to supercharge your web development skills. Here's what you'll get:
