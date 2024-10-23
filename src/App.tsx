@@ -5,7 +5,6 @@ import Score from './components/Score.tsx';
 import Game from './components/Game.tsx';
 import { useQuiz, Question, QuestionsResponse} from './QuizContext.tsx';
 import FullPageLoader from "./components/FullPageLoader.tsx"
-import {encode} from 'html-entities';
 
 
 function App() {
