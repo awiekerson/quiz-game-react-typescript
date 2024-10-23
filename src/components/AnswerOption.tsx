@@ -1,4 +1,6 @@
 import './AnswerOption.scss';
+import {decode} from 'html-entities';
+
 
 
 function AnswerOption({answer}: {answer : string}) {
@@ -9,7 +11,7 @@ function AnswerOption({answer}: {answer : string}) {
                 answer &&
                 <div className="answer-option">
                     <p> 
-                       {answer}
+                       {decode(answer)}
                     </p>
                 </div>
             }
