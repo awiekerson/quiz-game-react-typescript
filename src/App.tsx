@@ -15,12 +15,12 @@ async function fetchQuestion() {
 
   try {
     dispatch({type: "setStatus", payload: "fetching"});
+    dispatch({type: "setUserAnswer", payload: null});
     const response = await fetch('https://opentdb.com/api.php?amount=1');
     let data: QuestionsResponse = await(response.json());
 
     if (data.response_code === 0) {
       let question : Question = data.results[0];
-      console.log(question);
        let randomIndex = Math.round(Math.random() * question.incorrect_answers.length);
       question.incorrect_answers.splice(randomIndex, 0, question.correct_answer);
 
@@ -57,13 +57,12 @@ async function fetchQuestion() {
      : state.gameStatus == "error" ? 
      <p>Error...</p>
 
-     : state.gameStatus == "ready" ?  
+     :   
       <>
         <Score />
         <Game /> 
       </> 
-     :
-      ''
+   
     }
 
     </>
