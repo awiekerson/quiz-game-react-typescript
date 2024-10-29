@@ -9,7 +9,7 @@ This project is a quiz game built with React and TypeScript, providing an intera
 <b> Reducers:</b> Used with the Context API to manage and update game state, such as checking user answers and score tallying. <br />
 <b> Visual Studio Code (VSCode):</b> Serves as the primary development environment. <br /> 
 <b>NPM:</b> Facilitates dependency management and package installations. <br /> 
-<b>HTML & CSS:</b> Provides the structural and stylistic foundation of the app, creating a visually appealing and responsive UI. <br /> <br /> 
+<b>HTML & CSS:</b> Provides the structural and stylistic foundation of the app, creating a visually appealing and responsive UI. <br />
 <b>Vite:</b> Used as a fast, modern development server for quickly running and testing the app during development. <br /> 
 
 
