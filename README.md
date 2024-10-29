@@ -4,7 +4,7 @@ This project is a quiz game built with React and TypeScript, providing an intera
 
 <b> Technologies and Frameworks Used: </b> 
 
-React: Utilized for building the app's user interface, including the interactive question-and-answer components, score updates, and feedback visuals for correct/incorrect answers. <\n> 
+React: Utilized for building the app's user interface, including the interactive question-and-answer components, score updates, and feedback visuals for correct/incorrect answers. </n> 
 TypeScript: Ensures type safety across the codebase, enabling a more robust development process with minimized runtime errors.
 Context API: Manages global state efficiently across different components, helping to handle current questions, user scores, and game settings without prop drilling.
 Reducers: Used in combination with the Context API to manage and update game state, such as user answers and score tallying, through a functional approach.
