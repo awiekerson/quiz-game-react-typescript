@@ -1,6 +1,6 @@
 <b> Trivia Game Application</b> 
 
-This project is a quiz game built with React and TypeScript, providing an interactive user experience where players can answer random trivia questions. The app uses the Open Trivia API to fetch questions from various categories, ensuring that each quiz session is unique and diverse. This project combines these tools to create a responsive and user-friendly quiz game that updates scores and provides feedback, with TypeScript enhancing type safety and code readability.
+This project is a quiz game built with React and TypeScript, providing an interactive user experience where players can answer random trivia questions. The app uses the Open Trivia API to fetch questions from various categories. This project combines these tools to create a responsive and user-friendly quiz game that updates scores and provides feedback. 
 
 <b> Technologies and Frameworks Used: </b> 
 
